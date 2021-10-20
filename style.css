@@ -63,6 +63,7 @@ a{
     font-family: var(--font-Big);
     font-size: 2.1875em;
     margin: 0 0 40px;
+    text-transform: uppercase;
 }
 
 .card-body{
@@ -100,6 +101,10 @@ a{
         display: flex;
         flex-direction: row;
         justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     .card{
         margin: 0;
