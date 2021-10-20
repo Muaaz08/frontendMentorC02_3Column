@@ -1,0 +1,117 @@
+:root{
+    --primary-b-orange: hsl(31, 77%, 52%);
+    --primary-cyan: hsl(184, 100%, 22%);
+    --primary-vd-cyan: hsl(179, 100%, 13%);
+
+    --neutral-white:  hsla(0, 0%, 100%, 0.75);
+    --neutral-gray: hsl(0, 0%, 95%);
+
+    --font-Big: 'Big Shoulders Display', cursive;
+    --font-small: 'Lexend Deca', sans-serif;
+}
+
+*, *::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    margin: 25px 0;
+    padding: 0 10px;
+}
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    max-width: 100%;
+    width: 23.4375em;
+    background-color: var(--primary-b-orange);
+    padding: 47px;
+    margin: 0 auto;
+    color: var(--neutral-white);
+}
+
+.card1{
+    border-radius: 10px 10px 0 0;
+}
+
+.card3{
+    border-radius: 0 0 10px 10px;
+    background-color: var(--primary-vd-cyan);
+}
+
+.card2{
+    background-color: var(--primary-cyan);
+}
+
+.card img{
+    margin: 0 0 40px;
+}
+
+.card-title{
+    font-family: var(--font-Big);
+    font-size: 2.1875em;
+    margin: 0 0 40px;
+}
+
+.card-body{
+    font-family: var(--font-small);
+    font-size: 1em;
+    line-height: 29px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: var(--neutral-gray);
+    color: var(--primary-b-orange);
+    margin: 30px 0 0 0;
+    padding: 15px 20px;
+    border-radius: 33px;
+    font-family: var(--font-small);
+    border: 2px solid var(--neutral-white);
+}
+
+.btn2{
+    color: var(--primary-cyan);
+}
+
+.btn3{
+    color: var(--primary-vd-cyan);
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: var(--neutral-white);
+}
+
+@media screen and (min-width: 1024px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card{
+        margin: 0;
+        width: 19.75em;
+    }
+    .card1 {
+        border-radius: 10px 0 0 10px;
+    }
+    .card3 {
+        border-radius: 0 10px 10px 0;
+    }
+    .btn{
+        margin: 80px 0 0 0;
+    }
+}
