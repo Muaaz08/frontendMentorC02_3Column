@@ -53,7 +53,7 @@ Desktop view-
 
 ### What I learned
 
-Created HTML markup in one go using emment
+Created HTML markup in one go using emmet
 ```Emment 
 .container>.card*3.card$>img+h2.card-title+p.card-body+a.btn.btn$
 ```
