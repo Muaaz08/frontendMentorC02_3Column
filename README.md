@@ -39,8 +39,8 @@ Desktop view-
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Muaaz08/frontendMentorC02_3Column)
+- Live Site URL: [Add live site URL here](https://muaaz08.github.io/frontendMentorC02_3Column/)
 
 ## My process
 
