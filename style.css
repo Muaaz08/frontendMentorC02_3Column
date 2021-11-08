@@ -100,7 +100,7 @@ a{
 
 @media screen and (min-width: 1024px) {
     .container{
-        width: 80%;
+        width: fit-content;
         flex-direction: row;
         max-width: none;
     }
